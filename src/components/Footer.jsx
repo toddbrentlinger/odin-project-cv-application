@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer({ initialYear, sourceCodeUrl }) {
     const getCopyrightString = () => {
         const currentYear = new Date().getFullYear();

@@ -1,3 +1,6 @@
+import GeneralInfoSection from './components/GeneralInfoSection';
+import EducationSection from './components/EducationSection';
+import ExperienceSection from './components/ExperienceSection';
 import Footer from './components/Footer';
 import './styles/styles.scss';
 
@@ -9,11 +12,11 @@ function App() {
       </header>
 
       <main>
-        {/* <GeneralInfoSection />
+        <GeneralInfoSection />
         <hr />
         <EducationSection />
         <hr />
-        <ExperienceSection /> */}
+        <ExperienceSection />
       </main>
 
       <Footer
